@@ -2,7 +2,7 @@
   "name": "mongoo",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT",
+  "license": "Unlicense",
   "scripts": {
     "fmt": "prettier --single-quote --arrow-parens avoid --tab-width 4 --print-width 80 --write \"{,!(node_modules)/**/}*.js\"",
     "lint": "eslint . --fix",
