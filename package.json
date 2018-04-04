@@ -1,0 +1,18 @@
+{
+  "name": "mongoo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "fmt": "prettier --single-quote --arrow-parens avoid --tab-width 4 --print-width 80 --write \"{,!(node_modules)/**/}*.js\"",
+    "lint": "eslint . --fix",
+    "test": "ava"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.11"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
