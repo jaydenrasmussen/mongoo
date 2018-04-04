@@ -8,11 +8,11 @@ This module is meant to dynamically load and connect to a mongo database impleme
 
 ```json
 {
-    "user": 'admin',
-	"pass": 'password',
-	"replicaSet": 'replica_name',
-	"database": 'db_name',
-	"host": 'localhost:27027'
+    "user": "admin",
+	"pass": "password",
+	"replicaSet": "replica_name",
+	"database": "db_name",
+	"host": "localhost:27027"
 }
 ```
 
