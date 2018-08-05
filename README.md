@@ -1,4 +1,6 @@
 # Mongoo
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaydenrasmussen%2Fmongoo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjaydenrasmussen%2Fmongoo?ref=badge_shield)
+
 
 This module is meant to dynamically load and connect to a mongo database implementing mongoose and including any schemas from the `schema` folder.
 
@@ -53,3 +55,7 @@ db.schemas.animal.create({ family: 'Canidae', genus: 'Canis' });
 }
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaydenrasmussen%2Fmongoo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjaydenrasmussen%2Fmongoo?ref=badge_large)
